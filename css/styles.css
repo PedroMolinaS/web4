@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header{
+    width: 100%;
+    /* min-width: 1024px; */
+    height: 100vh;
+    background-image: url("../assets/fondo_Azul.jpg");
+    background-attachment: fixed;
+    background-size: cover;    
+    position: relative;
+    color: #eee;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header__options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 6.25rem;
+    align-items: center;
+}
+.header__inicio{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.header__item{
+    display:inline-block;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #eee;
+}
+.header__presentation{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* height: calc( 100vh - 6.25rem); */
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+.header__titulo{
+    font-size: 4rem;
+    font-weight: 900;
+    /* margin-bottom: 1rem; */
+}
+.header__subtitle{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.header__btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #eee;
+    padding: 1rem;
+    background-color: #4BCDBC;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.header__figure{
+    width:100%;
+    /* text-align: right; */
+}
+.header__img{
+    /* width: 100%; */
+    height:31.25rem;
+    /* object-fit: cover; */
+    z-index:100
+}
+.wave{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    
+}
+
+/* FUNCIONES */
+.functions__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+    justify-content:center;
+    align-items: center;
+}
+.functions__texts{
+    width: 80%;
+    margin: 0 auto;
+}
+.functions__titles{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.functions__paragraph{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+.functions__figure{
+    padding: 2rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.functions__img{
+    width: 95%;
+}
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    /* min-width: 1024px; */
+    height: 12.5rem;
+    background-color:#000;
+    color: #eee;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.2rem;
+}
